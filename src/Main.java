@@ -1,5 +1,13 @@
+
+
 public class Main {
+    public Main() {
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Client newclient = new Client("Юлий", "Цезарь", "УралСИБ");
+        newclient.getAllInfo();
+        bankEmployee bankEmployee = new bankEmployee("Алексей", "Иванович", "УралСИБ");
+        bankEmployee.getAllInfo();
     }
 }
